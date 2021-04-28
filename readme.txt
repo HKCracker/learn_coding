@@ -1,8 +1,1 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes.
-
-Creating a new branch is quick.
-
-test test
+仅供个人Coding学习记录，文中代码、笔记来自于他人，不涉及商用
