@@ -1,5 +1,5 @@
 try:
-    s = open('E:/work/2021HW/dcn_open.txt', 'r')
+    s = open('D:/Coding/python_code/python_study_demo/IO编程/test.txt', 'r')
     for line in s.readlines():
         print(line.strip())
 finally:
@@ -7,7 +7,7 @@ finally:
         s.close()
     
 # 等同于 上面的代码，不用再写close()
-with open('E:/work/2021HW/dcn_open.txt', 'r') as t:
+with open('D:/Coding/python_code/python_study_demo/IO编程/test.txt', 'r') as t:
     print(t.read())
 
 # 按字节读取 read(size)
